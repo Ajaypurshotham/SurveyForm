@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>Survey Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details">
+                    <span class="title">Personal Details</span>
+
+        <div class="fields">
+            <div class="input-field">
+                <label>First Name:</label>
+                <input type="text" placeholder="Enter your first name" required>
+            </div>
+            <div class="input-field">
+                <label>Last Name:</label>
+                <input type="text" placeholder="Enter your last name" required>
+            </div>
+            <div class="input-field">
+                <label>DOB:</label>
+                <input type="date" placeholder="Date of birth" required>
+            </div>
+                <div class="input-field">
+                    <label>Mobile no:</label>
+                    <input type="number" placeholder="Mobile no" required>
+                </div>
+                    <div class="input-field">
+                        <label>Email:</label>
+                        <input type="text" placeholder="email" required>
+                   </div>
+                <div class="input-field">
+                    <label>Profession:</label>
+                    <input type="text" placeholder="profession" required>
+                </div>
+                <div class="input-field">
+                <label>Country:</label>
+            <select id="country" required>
+                <option value="">Select a country</option>
+                <option value="IND">India</option>
+                <option value="US">Canada</option>
+                <option value="UK">UK</option>
+            </select>
+        </div>
+        <div class="input">Gender:</div>
+            <input type="checkbox" id="male"> Male
+            <input type="checkbox" id="female"> Female
+    </div>
+    </div>
+    <button type="submit" id="submitBtn">Submit</button>
+    <button type="reset" id="resetBtn">Reset</button>
+
+</form>
+<script src="script.js"></script>
+</body>
+</html>
